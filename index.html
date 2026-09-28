@@ -2882,13 +2882,13 @@ function iaCopied() {
    ※ 단위 ID 는 애드핏에서 크기별로 따로 발급받아 아래 units 에만 적으면 된다 */
 const AD = {
   units: {
-    top:     { id: 'DAN-XXXXXXXXXXXXXXXX', w: 320, h: 50 },   /* 맨 위 · 모바일과 PC 크기가 같아 하나로 겸한다 */
-    side_pc: { id: 'DAN-XXXXXXXXXXXXXXXX', w: 320, h: 50 },   /* PC 미리보기 카드 위 */
-    mid:     { id: 'DAN-XXXXXXXXXXXXXXXX', w: 320, h: 100 },  /* PC 옆 칸 맨 아래 / 휴대폰 본문 — 한 곳에만 뜨니 하나로 쓴다 */
-    done:    { id: 'DAN-XXXXXXXXXXXXXXXX', w: 300, h: 250 },  /* 저장 완료 카드 */
-    anchor:  { id: 'DAN-XXXXXXXXXXXXXXXX', w: 320, h: 50 }    /* 모바일 하단 오버형 */
+    top:     { id: 'DAN-oy8Y49lsXAHW1lFx', w: 320, h: 50 },   /* 맨 위 · 모바일과 PC 크기가 같아 하나로 겸한다 */
+    side_pc: { id: 'DAN-7h3AsydsyE42aXBD', w: 320, h: 50 },   /* PC 미리보기 카드 위 */
+    mid:     { id: 'DAN-KrDEUW5femyuvHFt', w: 320, h: 100 },  /* PC 옆 칸 맨 아래 / 휴대폰 본문 — 한 곳에만 뜨니 하나로 쓴다 */
+    done:    { id: 'DAN-cyst3RJxw26ZvMMh', w: 300, h: 250 },  /* 저장 완료 카드 */
+    anchor:  { id: 'DAN-YekdDKRZd5GDCEH9', w: 320, h: 50 }    /* 모바일 하단 오버형 */
   },
-  iframeOk: false,  /* iframe 안에서도 띄우려면 true (애드핏은 아이프레임 호출을 금지한다) */
+  iframeOk: true,  /* iframe 안에서도 띄우려면 true (애드핏은 아이프레임 호출을 금지한다) */
   popup: true,      /* 저장 완료 카드 */
   overlay: true,    /* 하단 오버형 */
   init() {
